@@ -47,13 +47,79 @@
   <input type="text" name="search_query">
   <button>Search</button>   to refer the new page -->
 
-
+</form>
   <!-- Pratice Question 8 -->
 
   <form action="https://www.google.com/search">
     <input type="text" name="q" placeholder="to search on Google">
     <button>Search</button>
   </form>
-</form>
+
+  <!-- Cheack box -->
+
+  <form action="">
+    <input type="checkbox" name="age" id="age"  >
+    <label for="age">I am 18+</label>
+  </form>
+
+  <!-- Ratio button -->
+
+  <form action="/server">
+    <input type="radio" name="age" id="age" value="16">
+    <label for="age">I am 16+</label>
+    <input type="radio" name="age" id="age" value="18">
+    <label for="age">I am 18+</label>
+    <input type="radio" name="age" id="age" value="21">
+    <label for="age">I am  21+</label>
+    <button>submit</button>
+
+
+     <!-- DropDown -->
+
+     <select name="Profession" id="Profession">
+      <option value=""></option>
+      <option value="Student">Student</option>
+      <option value="Student" selected>Software Enginer</option>
+     </select>
+      <label for="vol">Range</label>
+     <input type="range" id="vol" min="0" max="100" name="val">
+
+
+     <!-- textarea -->
+
+     <label for="feedback">feedback</label>
+     <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+     
+     <button>submit</button>
+
+  </form>
+
+
+  <!-- Pratice question 9 -->
+
+  <form action="/server">
+
+    <caption>
+      <h1>Registion Form</h1>
+    </caption>
+    <div>
+    <input type="text" placeholder="first name">
+    <input type="text" placeholder="Last name">
+  </div>
+    <label for="gender">Please Select gender in</label>
+    <select name="gander" id="gander">
+      <option value="gander">Male</option>
+      <option value="gender">Female</option>
+    </select> <br>
+    
+    Do you agree to all tearm of service? 
+    <input type="checkbox" id="agree">
+    <label for="agree"> Yes, I agree</label> <br>
+    <button>Register</button>
+  </form>
+
+ 
+
+
 </body>
 </html>
