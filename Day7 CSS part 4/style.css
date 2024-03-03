@@ -1,0 +1,23 @@
+/* div{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  /* background-color: rgba(red, green, blue, 0);// kam nhi kr raha h 
+  opacity: 0.5; */
+
+
+  #transition{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  /* transition: 1s; */
+  margin: 0 auto;
+  transform: rotate(45deg);
+  transition: margin-top 2s ease-in-out 0.2s;
+  
+}
+
+#transition:hover{
+background-color: #2afc00;
+margin-top: 400px;
+}
