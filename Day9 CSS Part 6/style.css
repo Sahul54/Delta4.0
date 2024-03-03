@@ -1,30 +1,57 @@
-.container{
+/* .container{
   width: 500px;
   height: 300px;
   background-color: rgb(17, 190, 35);
   display: grid; 
   /* grid-template-rows: 50px 50px 50px;
   /* grid-template-columns: 80px 80px 80px 80px;
-  grid-template-columns: auto auto auto; */
+  grid-template-columns: auto auto auto; 
   grid-template-rows: repeat(5, 1fr);
   grid-template-columns: repeat(4, 1fr);
   /* row-gap: 10px;
-  column-gap: 10px; */
-  /* Shorthand */
+  column-gap: 10px; 
+  /* Shorthand 
   grid-gap: 10px;
 
 }
 
 .one{
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 3; 
 }
 
 
 .child{
   /* width: 80px;
-  height: 50px; */
+  height: 50px; 
   background-color: #9901ff;
   border: 2px solid rgb(13, 239, 231);
   text-align: center;
+} */
+
+
+
+/* ---------Amination--------------- */
+.amination{
+  height: 300px;
+  width: 200px;
+  background-color: #e644c0;
+
+  /* animation-name: fontAnimation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-iteration-count: 4;
+  animation-direction: alternate; */
+
+  animation: fontAnimation 2s ease-in 0s 5 alternate;
+}
+
+@keyframes fontAnimation {
+  from{
+    font-size: 20px;
+  }
+  to{
+    font-size: 50px;
+  }
 }
